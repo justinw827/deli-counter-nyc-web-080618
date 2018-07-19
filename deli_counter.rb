@@ -5,7 +5,7 @@ def line(katz_deli)
   else
     output = ""
     katz_deli.each_with_index do |name, num|
-      output += ("#{num}. #{name} ")
+      output += ("#{num+1}. #{name} ")
     end
     puts output
   end
