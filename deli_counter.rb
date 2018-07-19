@@ -6,5 +6,7 @@ def line(katz_deli)
     output = ""
     katz_deli.each_with_index do |name, num|
       output += (num + '. ' + name + ' ')
+    end
+    return output
   end
 end
