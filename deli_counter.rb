@@ -7,6 +7,6 @@ def line(katz_deli)
     katz_deli.each_with_index do |name, num|
       output += ("#{num}. #{name} ")
     end
-    return output
+    puts output
   end
 end
